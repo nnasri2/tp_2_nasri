@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../styleResults.css">
+    <link rel="stylesheet" type="text/css" href="../styless.css">
     <title>Confirmation d'Adresses</title>
 </head>
 <body>
@@ -59,7 +59,7 @@
     <?php if ($streetIsValid["isValid"] && $zipCodeIsValid["isValid"] && $addressIsValid["isValid"]) : ?>
         <div class="buttons">
             <!-- Retour au formulaire pour modifier avec des champs préremplis -->
-            <a href='../forms/form2.php'>
+            <a href='../formulaires/form2.php'>
                 <input type='button' id='modifier' name='modifier' value='Modifier'>
             </a>
 

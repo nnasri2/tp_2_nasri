@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../style3.css">
+    <link rel="stylesheet" type="text/css" href="../styless.css">
     <title>Formulaire d'Adresse</title>
 </head>
 <body>
 
 <div class="container">
-    <form method="POST" action="../results/resultat.php">
+    <form method="POST" action="../utils/results.php">
         <?php
         session_start();
         $addressNB = isset($_SESSION["number1"]["addressNB"]) ? $_SESSION["number1"]["addressNB"] : 0;

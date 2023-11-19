@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../styleResultatVal.css">
+    <link rel="stylesheet" type="text/css" href="../styless.css">
     <title>Confirmation d'Adresse</title>
 </head>
 <body>
@@ -37,7 +37,7 @@
     <br><br>
 
     <p> cliquez sur le lien ci-dessous si vous voulez ajouter plus d'adresses.</p>
-    <a href="../forms/form1.php" class="return-link">Retour</a>
+    <a href="..index.php" class="return-link">Retour</a>
 </div>
 
 </body>
